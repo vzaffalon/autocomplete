@@ -41,6 +41,7 @@ window.onload = function () {
       options.style.visibility = "visible";
     } else {
       options.style.visibility = "hidden";
+      optionsList.innerHTML = ''
     }
     updateListOfItems(filter);
   };
